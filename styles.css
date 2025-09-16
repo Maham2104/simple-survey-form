@@ -1,0 +1,64 @@
+body {
+      font-family: Arial, sans-serif;
+      background: url('https://images.stockcake.com/public/4/c/2/4c2007c6-a130-4c6b-a183-e09c9dfd6d9b_large/office-night-work-stockcake.jpg') 
+        no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    h1, p {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 30px auto;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 8px;
+    }
+
+    .checkbox-group, .radio-group {
+      margin-bottom: 15px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #37af65;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2e8b57;
+    }
